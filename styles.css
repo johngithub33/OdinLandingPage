@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    
+}
+
+.topsection, .cardssection, .testimonysection{
+    height: 250px;
+}
+
+
+.topsection{
+    background-color: rgb(0, 255, 55);
+    padding: 0 75px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 0 50px 0;
+    padding: 20px 0 0 0;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.topsectioncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.subcontenttopleft, .subcontenttopright{
+    width: 400px;
+}
+
+.subcontenttopleft{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contentimage{
+    background-color: brown;
+}
+
+button{
+    width: 65px;
+    height: 25px;
+}
+
+/* ******************************************************************************************** */
+/* card section, section 2 */
+
+.cardssection{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardssection h2{
+    /* margin: 20px 0; */
+}
+
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    /* gap: 20px; */
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ******************************************************************************************** */
+/* testimony section, section 3 */
+
+.testimonysection{
+    /* margin: 40px 0 0 0; */
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonysection h2{
+    width: 700px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.testimonysection p{
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+/* ******************************************************************************************** */
+/* calltoactionsection */
+
